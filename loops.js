@@ -5,8 +5,10 @@
 // Hoera!
 // Hoera!
 // ==========================================
-
-
+const hoera = "Hoera!";
+for (let i=1; i<=5; i++){
+    if (i === 4) break;
+    console.log(hoera);}
 
 // ==========================================
 // Opdracht 2. Maak een for-loop die 4 keer het woord "loop..." logt, en bij de vijfde loop het woord "klaar!"
@@ -17,7 +19,12 @@
 // loop...
 // klaar!
  // ==========================================
-
+const loop = "Loop...";
+for (let i=1; i<=5; i++){
+    if (i === 5) {
+        console.log("Klaar!");
+    break;}
+    console.log(loop);}
 
 
 // ==========================================
@@ -32,7 +39,13 @@
 
 // Tip: een getal is oneven als je het door 2 deelt en er blijft nog iets over. Een getal is even als je het deelt door 2 en er blijft niets over..
 // ==========================================
-
+for (let i=0; i<=15; i++) {
+    if (i%2) {
+        console.log(i + ' is oneven');
+        } else {
+        console.log(i + ' is even');
+    }
+}
 
 
 // ==========================================
@@ -49,4 +62,3 @@
 // >> 7
 // >> 9
 // ==========================================
-
